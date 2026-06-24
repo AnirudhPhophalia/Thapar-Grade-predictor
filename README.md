@@ -119,14 +119,6 @@ Marks < 35 → E
 - `GET /api/student/statistics/[subjectId]` - Get subject statistics
 - `POST /api/student/marks/[id]/edit-request` - Request mark edit
 
-### Admin (Protected)
-- `GET /api/admin/subjects` - List all subjects
-- `POST /api/admin/subjects` - Create subject
-- `GET /api/admin/statistics` - System statistics
-- `GET /api/admin/edit-requests` - Edit requests
-- `POST /api/admin/edit-requests/[id]/approve` - Approve edit
-- `GET /api/admin/users` - List users
-- `GET /api/admin/audit-logs` - Audit logs
 
 ## Performance Optimization
 

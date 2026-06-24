@@ -84,26 +84,8 @@ A production-ready grade prediction platform for Thapar Institute of Engineering
 ## Grade Prediction Algorithm
 
 ### Percentile-Based Prediction (When ≥100 submissions)
-```
-Top 10% (90-100 percentile)     → Grade A
-10-20% (80-90 percentile)       → Grade A-
-20-45% (55-80 percentile)       → Grade B
-45-70% (30-55 percentile)       → Grade B-
-70-80% (20-30 percentile)       → Grade C
-80-100% (0-20 percentile)       → Grade D
-Marks < 35 (always)             → Grade E
-```
 
 ### Historical Cutoff Fallback (When <100 submissions)
-```
-Marks ≥ 85 → A
-Marks ≥ 75 → A-
-Marks ≥ 65 → B
-Marks ≥ 55 → B-
-Marks ≥ 45 → C
-Marks ≥ 35 → D
-Marks < 35 → E
-```
 
 ## API Endpoints
 
